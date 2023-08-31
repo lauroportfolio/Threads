@@ -16,6 +16,7 @@ async function Page({ params }: {params: { id: string }}) {
 
     if(!userInfo?.onboarded) redirect('/onboarding')
 
+    
     return (
         <section>
             <ProfileHeader 
