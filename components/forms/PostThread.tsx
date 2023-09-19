@@ -68,7 +68,7 @@ function PostThread({ userId }: { userId: string }) {
                     name='thread'
                     render={({ field }) => (
                         <FormItem className='flex w-full flex-col gap-3'>
-                            <FormLabel className='mt-2 text-base-semibold text-light-2'>
+                            <FormLabel className='text-base-semibold text-light-2 mt-10'>
                                 Content
                             </FormLabel>
                             <FormControl className="no-focus border border-dark-4 bg-dark-3 text-light-1">
